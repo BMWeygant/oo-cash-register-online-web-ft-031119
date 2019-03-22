@@ -17,7 +17,7 @@ end
 
 def apply_discount
   if discount != 0
-    new_total = self.total - (self.total.to_f/0.2.to_f)
+    self.total = self.total - (self.total.to_f/0.2.to_f)
   end
 end
 
