@@ -1,6 +1,9 @@
 class CashRegister
 
 
+
+
+
 def total
 end
 
