@@ -12,6 +12,7 @@ def add_item(item, price, quantity)
   quantity.times do
   @items << item
 end
+end
 
 def apply_discount
 end
