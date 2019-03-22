@@ -8,7 +8,7 @@ def initialize(discount=0)
 end
 
 def total
-  total + add_item.value.to_i - discount.to_i
+  total + add_item.value - discount
 end
 
 def add_item
