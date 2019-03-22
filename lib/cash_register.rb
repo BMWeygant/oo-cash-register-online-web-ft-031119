@@ -7,12 +7,8 @@ def initialize(discount=0)
   @items = []
 end
 
-def total
-sum = (@total + @items.to_i)/@discount.to_i
-sum.to_i
-end
-
-def add_item
+def add_item(item, price, quantity)
+  self.total
 end
 
 def apply_discount
