@@ -9,6 +9,7 @@ end
 
 def add_item(item, price, quantity)
   self.total + price * quantity
+  quantity.times do
   @items << item
 end
 
