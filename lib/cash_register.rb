@@ -8,7 +8,7 @@ def initialize(discount=0)
 end
 
 def total
-sum = (@total.to_f + @items.values.to_f)/@discount.to_f
+sum = (@total.to_f + @items.to_f)/@discount.to_f
 sum.to_i
 end
 
