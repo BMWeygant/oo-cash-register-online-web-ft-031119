@@ -18,8 +18,8 @@ end
 def apply_discount
   if discount != 0
     self.total = self.total - (self.total.to_f*0.2.to_f)
-    puts "After the discount, the total comes to $#{self.total}."
   end
+  puts "After the discount, the total comes to $#{self.total}."
 end
 
 def items
