@@ -17,7 +17,7 @@ end
 
 def apply_discount
   if discount != 0
-    self.total
+    new_total = self.total - (self.total.to_f/.2) 
 end
 
 def items
