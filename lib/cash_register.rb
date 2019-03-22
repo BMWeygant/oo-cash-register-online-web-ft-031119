@@ -1,8 +1,8 @@
 class CashRegister
 
 
-
-
+def initialize
+end
 
 def total
 end
