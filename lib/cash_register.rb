@@ -1,14 +1,14 @@
 class CashRegister
-attr_accessor :total, :item, :discount
+attr_accessor :total, :items, :discount
 
 def initialize(discount=0)
   @total = 0
   @discount = discount
-  @item = []
+  @items = []
 end
 
 def total
-sum = (@total.to_f + @item.values.to_f)/@discount.to_f
+sum = (@total.to_f + @items.values.to_f)/@discount.to_f
 sum.to_i
 end
 
