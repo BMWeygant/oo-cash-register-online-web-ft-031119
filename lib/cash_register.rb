@@ -8,7 +8,8 @@ def initialize(discount=0)
 end
 
 def total
-  (total + add_item.value)/discount
+sum = (total + add_item.value)/discount
+sum
 end
 
 def add_item
