@@ -8,7 +8,7 @@ def initialize(discount=0)
 end
 
 def add_item(item, price, quantity)
-  self.total
+  self.total + price * quantity
 end
 
 def apply_discount
