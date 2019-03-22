@@ -10,7 +10,7 @@ end
 
 def total
 sum = (@total.to_f + @item.values.to_f)/@discount.to_f
-sum
+
 end
 
 def add_item
